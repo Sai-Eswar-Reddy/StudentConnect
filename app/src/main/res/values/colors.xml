@@ -1,0 +1,21 @@
+<resources>
+    <color name="blue_primary">#1976D2</color>
+    <color name="blue_variant">#1565C0</color>
+    <color name="blue_secondary">#03A9F4</color>
+    <color name="blue_accent">#0288D1</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="oceanic_blue_primary">#005C97</color>       <color name="oceanic_blue_secondary">#363795</color>     <color name="black">#000000</color>
+
+
+    <color name="background_primary">#F0F4F8</color>  <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <color name="button_primary">#1976D2</color>
+    <color name="button_secondary">#03A9F4</color>
+    <color name="button_text_primary">#FFFFFF</color>
+    <color name="button_text_secondary">#FFFFFF</color>
+
+    <color name="your_light_background_color">#F5F5F5</color>
+    <color name="your_dark_background_color">#212121</color>
+</resources>

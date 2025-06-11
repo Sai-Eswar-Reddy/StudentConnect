@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="32dp"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Account"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/editTextFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:textColorHint="#473D3D"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextRollNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Roll Number"
+            android:textColorHint="#473D3D"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:padding="16dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Branch"
+            android:textColorHint="#473D3D"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:padding="16dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Section"
+            android:textColorHint="#473D3D"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:padding="16dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Year"
+            android:textColorHint="#473D3D"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:padding="16dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:textColorHint="#473D3D"
+            android:textColor="@color/black"
+            android:inputType="phone"
+            android:padding="16dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="#473D3D"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#473D3D"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#800080"
+            android:padding="12dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account? "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

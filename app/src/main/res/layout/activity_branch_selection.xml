@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".BranchSelectionActivity">
+
+    <TextView
+        android:id="@+id/textViewHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewSelectBranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Branch"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/buttonCSE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CSE"
+                android:insetLeft="8dp"
+                android:insetRight="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                style="@style/BranchButtonStyle" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/buttonCSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CSD"
+                android:insetLeft="8dp"
+                android:insetRight="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                style="@style/BranchButtonStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/buttonCSM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CSM"
+                android:insetLeft="8dp"
+                android:insetRight="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                style="@style/BranchButtonStyle" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/buttonEEE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="EEE"
+                android:insetLeft="8dp"
+                android:insetRight="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                style="@style/BranchButtonStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/buttonECE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ECE"
+                android:insetLeft="8dp"
+                android:insetRight="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                style="@style/BranchButtonStyle" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/buttonCHEM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CHEM"
+                android:insetLeft="8dp"
+                android:insetRight="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                style="@style/BranchButtonStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/buttonMECH"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="MECH"
+                android:insetLeft="8dp"
+                android:insetRight="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                style="@style/BranchButtonStyle" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/buttonCIVIL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CIVIL"
+                android:insetLeft="8dp"
+                android:insetRight="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                style="@style/BranchButtonStyle" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonAllStudents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Students"
+            android:insetLeft="8dp"
+            android:insetRight="8dp"
+            android:insetTop="4dp"
+            android:insetBottom="4dp"
+            style="@style/BranchButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

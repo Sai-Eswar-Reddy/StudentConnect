@@ -31,8 +31,8 @@ Student Connect is a campus-centric Android application built to streamline stud
 
 ## 👨‍💻 Developed By
 
-- [Sai Eswar Reddy](https://github.com/Sai-Eswar-Reddy)  
-- [Praneeth](https://github.com/Praneeth-376)
+- Sai Eswar Reddy - (https://github.com/Sai-Eswar-Reddy)  
+- Praneeth - (https://github.com/Praneeth-376)
 
 
 

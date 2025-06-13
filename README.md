@@ -8,8 +8,8 @@ Student Connect is a campus-centric Android application built to streamline stud
 - 🏫 **Branch/Department Selection** – Captures and stores department info at first login
 - 👤 **Student Dashboard** – Displays user-specific academic data
 - 📝 **Form Submission** – Allows students to confirm selections and submit academic forms
-- 🔁 **Persistent Login** – Session remains active until explicitly logged out
 - 🧭 **Dynamic Navigation** – App flow changes based on selected branch
+- 📩 **Connections** – Student can connect to another student to share resources
   
 ## 🧑‍💻 Tech Stack
 

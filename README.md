@@ -26,8 +26,8 @@ Student Connect is a campus-centric Android application built to streamline stud
 ## 🔒 App Permissions
 
 - 📶 **Internet Access** – For Firebase services and real-time syncing
-- 📤 **Email Access** – For sending academic-related notifications 
-- 💬 **SMS Access** – For communication or authentication support
+- 📤 **Email Access** – For sending academic-related materials. 
+- 💬 **SMS Access** – For communication, sending and receiving information.
 
 ## 👨‍💻 Developed By
 
